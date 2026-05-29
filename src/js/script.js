@@ -31,7 +31,7 @@ botaoScanear.onclick = async ()=>{
 
     //ajustar tamanho
     canvas.width = videoElemento.videoWidth;
-    canvas.height = videoElemnto.videoHeight;
+    canvas.height = videoElemento.videoHeight;
 
     //limpa e garante que a orientação seja a padrão ( não espelha)
     contexto.setTransform(1,0,0,1,0,0);
